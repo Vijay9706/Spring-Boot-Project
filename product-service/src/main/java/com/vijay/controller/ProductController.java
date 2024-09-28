@@ -16,6 +16,7 @@ import com.vijay.service.IProductService;
 import com.vijay.service.ProductService;
 
 @RestController
+@RequestMapping("/v1")
 public class ProductController {
 	
 	
